@@ -4,7 +4,7 @@ FROM debian:latest
 RUN apt-get update
 
 # Install python
-RUN apt-get install python3 pip3 -y
+RUN apt-get install python3 -y
 
 # Install nicegui
 RUN pip3 install nicegui
